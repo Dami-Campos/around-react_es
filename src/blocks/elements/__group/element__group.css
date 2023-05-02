@@ -1,0 +1,31 @@
+.element__group {
+  max-width: 282px;
+  height: 79px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.element__count {
+  width: 9px;
+  height: 13px;
+  margin-bottom: 22px;
+  margin-top: 0;
+  margin-left: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.element__right {
+  height: 79px;
+  margin-right: 18px;
+  display: grid;
+  grid-gap: 1px;
+  width: 30px;
+}

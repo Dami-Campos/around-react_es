@@ -1,0 +1,16 @@
+.element__liked {
+  width: 21px;
+  height: 19px;
+  padding-left: 20px;
+  border: none;
+  background: none;
+  background-repeat: no-repeat;
+  color: inherit;
+  background-image: url('../../../images/vector_like_hover.png') !important;
+}
+    
+  .element__liked:hover {
+  opacity: 0.6;
+  width: 21px;
+  height: 19px;
+}
