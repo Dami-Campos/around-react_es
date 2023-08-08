@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <body className="page">
+    <div className="page">
     <section id="popupProfile" className="popupprofile popupprofile-form popup">
       <div className="popupprofile__close"><button  className="popupprofile__closebutton popup__close-button" type="button" id="closeProfile"><img className="popup__close-image" src={closeIcon} alt="Cerrar página" /></button></div>
       <div className="popupprofile__container">
@@ -20,19 +20,7 @@ function App() {
         </form>
       </div>
     </section>
-    <section id="popupImage" className="popupimage popupimage-form popup">
-      <div className="popupimage__close"><button className="popupimage__closebutton popup__close-button" type="button" id="closeImage"><img className="popup__close-image" src={closeIcon} alt="Cerrar página" /></button></div>
-      <div className="popupimage__container">
-        <h3 className="popupimage__header">Editar perfil</h3> 
-        <form  className="popupimage__form form" name="register_image">
-          <input id="form-title" className="popupimage__name form__input" type="text" name="name" minLength="2" maxLength="30" required placeholder="Título" />
-          <span className="form__error form-title-error"></span>
-          <input  id="form-link" className="popupimage__job form__input" type="url" name="link-image" placeholder="Enlace de la imagen" />
-          <span className="form__error form-link-error"></span> 
-          <button  className="popupimage__save form__submit" type="submit">Crear</button>
-        </form>
-      </div>
-    </section>
+    
     <section id="imageOpen" className="popup"> 
       <div className="popup__close"><button className="popup__close-button" type="button" id="close"><img className="popup__close-image" src={closeIcon} alt="Cerrar página" /></button></div>
       <div className="popup__container">
@@ -77,7 +65,7 @@ function App() {
         </div>
         </li>
     </template>
-  </body>
+  </div>
   </>
     
   );
